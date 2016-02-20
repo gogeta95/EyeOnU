@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkinfo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/emp3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="+ Add Contact"
+        android:textColor="#00552B"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_below="@+id/button"
+        android:layout_gravity="center_vertical|center_horizontal|center"></ListView>
+
+    <TextView
+        android:id="@+id/favcon"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Your favourite contacts: "
+        android:textColor="#606060"
+        android:textSize="22sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="45dp"
+        android:layout_height="38sp"
+        android:layout_alignTop="@+id/listView1"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/listView1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="45dp"
+        android:layout_height="38sp"
+        android:layout_below="@id/imageButton1"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/listView1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="45dp"
+        android:layout_height="38sp"
+        android:layout_below="@id/imageButton2"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/listView1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="45dp"
+        android:layout_height="38sp"
+        android:layout_below="@id/imageButton3"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/listView1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="45dp"
+        android:layout_height="38sp"
+        android:layout_below="@id/imageButton4"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/listView1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="Delete All Favourites"
+        android:textColor="#00552B"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

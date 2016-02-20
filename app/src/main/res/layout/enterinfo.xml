@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/bkinfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Enter Your Name :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:ems="10"
+        android:hint="Your Name Please."
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text=""
+        android:textStyle="italic">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Enter Your Email Address :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:ems="10"
+        android:hint="Your Email Address Please."
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewphn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Enter Your Mobile Number :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:ems="10"
+        android:hint="Your Mobile Number Please."
+        android:inputType="phone"
+        android:text=""
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Enter Your Country :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/clearbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Clear The Entire Entry"
+        android:textColor="#00552B"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/donebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Done"
+        android:textColor="#00552B"
+        android:textStyle="italic|bold"
+
+        />
+</LinearLayout>

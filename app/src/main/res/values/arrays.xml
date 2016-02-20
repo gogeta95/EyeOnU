@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_urls">
+        <item>http://www.indiatvnews.com/rssfeed/india.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/world_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/politics_national_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/politics_international_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/sports_cricket_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/sports_tennis_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/sports_hockey_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/sports_soccer_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/masala_bollywood_news.xml</item>
+        <item>http://www.indiatvnews.com/rssfeed/masala_hollywood_news.xml</item>
+    </string-array>
+    <string-array name="loading_texts">
+        <item>Loading Today\'s News : INDIA</item>
+        <item>Loading Today\'s News : WORLD</item>
+        <item>Loading Today\'s Political News : NATIONAL</item>
+        <item>Loading Today\'s Political News : INTERNATIONAL</item>
+        <item>Loading Today\'s Sport News : CRICKET</item>
+        <item>Loading Today\'s Sport News : TENNIS</item>
+        <item>Loading Today\'s Sport News : HOCKEY</item>
+        <item>Loading Today\'s Sport News : SOCCER</item>
+        <item>Loading Today\'s Bollywood News</item>
+        <item>Loading Today\'s Hollywood News</item>
+    </string-array>
+    <string-array name="news_titles">
+        <item>INDIA</item>
+        <item>WORLD</item>
+        <item>NATIONAL</item>
+        <item>INTERNATIONAL</item>
+        <item>CRICKET</item>
+        <item>TENNIS</item>
+        <item>HOCKEY</item>
+        <item>SOCCER</item>
+        <item>BOLLYWOOD</item>
+        <item>HOLLYWOOD</item>
+    </string-array>
+</resources>

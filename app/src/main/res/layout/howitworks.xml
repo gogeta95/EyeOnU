@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkinfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Few tips To Understand"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#606060" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewhome"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.66"
+                android:text="Clicking on this segment, will take you to the main page of the application.It includes two buttons &apos;+Add Contacts&apos; that allows you to select your favourite contacts whom you would require in case of emergency or people who need you.The default number of contacts that can be added is 5.In case of any changes,clicking the &apos;Clear Contacts&apos; button would clear all your added contacts.You need to send an sms &apos;Locate&apos; to any of your added contacts.It would return with the location coordinates of the person . "
+                android:textColor="#808080"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewtrack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Clicking on this segment will take you to a screen that asks you to CLICK a button that starts the service of the application .Before starting any action(tracking the location of your friend , sending your own location or finding your lost phone etc), it is must TO START THE SERVICE."
+                android:textColor="#808080"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewwhere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Clicking on this segment would track YOUR CURRENT LOCATION , wherever you are! In case of any emergency , you could simply click the&apos;SOS&apos; button ,which would send your current location to your added contacts .YOU ARE SAFE NOW!! "
+                android:textColor="#808080"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewph1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHANGE THE MODE OF YOUR PHONE"
+                android:textColor="#707070" />
+
+            <TextView
+                android:id="@+id/textViewph2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgetting where you saw your phone last is a usual thing to happen.Here we have made it easier for you to find.In case your phone is in Silent mode , you could send an sms &apos;SetRinger&apos; from a cell to your number. It would change the mode of your phone to RINGER making it easy for you to find! "
+                android:textColor="#808080"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textViewph3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEND ALERT"
+                android:textColor="#707070" />
+
+            <TextView
+                android:id="@+id/textViewph4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgetting where you saw your phone last is a usual thing to happen.Here we have made it easier for you to find.Just send an sms 'Alert' from another cell to your mobile and you can hear the sound of a siren with a strobe light flashing ! Here you got your phone back !"
+
+                android:textColor="#808080" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:text="HOME"
+        android:textColor="#00552B"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scrollView1"
+        android:layout_marginTop="16dp"
+        android:text="Lets TRACK!"
+        android:textColor="#00552B"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scrollView2"
+        android:layout_marginTop="14dp"
+        android:text="Where Am I?"
+        android:textColor="#00552B"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scrollView3"
+        android:layout_marginTop="14dp"
+        android:text="Lost YOUR Phone ??"
+        android:textColor="#00552B"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

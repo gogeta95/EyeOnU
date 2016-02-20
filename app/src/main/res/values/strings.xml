@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keeping Tabs</string>
+    <string name="title_activity_first_screen">Welcome Screen</string>
+    <string name="title_activity_enter_info">EnterInfo</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Let\'s Track!!!</string>
+    <string name="title_section3">Where am I?</string>
+    <string name="title_section4">How it works?</string>
+    <string name="title_section5">SOS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Action</string>
+    <string name="action_settings">Reset Application</string>
+    <string name="title_activity_sec1">Service</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dialog_box1">DialogBox1</string>
+    <string name="title_activity_options_screen">Menu</string>
+    <string name="title_activity_n2">News: INDIA</string>
+    <string name="title_activity_n3">News: WORLD</string>
+    <string name="title_activity_n4">Political News: NATIONAL</string>
+    <string name="title_activity_n5">Political News: INTERNATIONAL</string>
+    <string name="title_activity_n6">Sport News: CRICKET</string>
+    <string name="title_activity_n7">Sport News: TENNIS</string>
+    <string name="title_activity_n8">Sport News: HOCKEY</string>
+    <string name="title_activity_n9">Sport News: SOCCER</string>
+    <string name="title_activity_n10">News: BOLLYWOOD</string>
+    <string name="title_activity_n11">News: HOLLYWOOD</string>
+    <string name="title_activity_newsmenu">New\'s Menu</string>
+    <string name="title_activity_webview">NEWS</string>
+    <string name="title_activity_weathermenu">Weather Menu</string>
+    <string name="title_activity_webvi">Weather News</string>
+    <string name="title_activity_weather">Weather News</string>
+    <string name="title_activity_email">Email</string>
+    <string name="MAPS_KEY">AIzaSyDpbnJ6RgqKPc6OcoQlWywK4NqxhGwdK5I</string>
+
+</resources>
