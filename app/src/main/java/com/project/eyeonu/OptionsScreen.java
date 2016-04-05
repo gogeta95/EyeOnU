@@ -16,7 +16,7 @@ import com.daimajia.androidanimations.library.YoYo;
 public class OptionsScreen extends AppCompatActivity {
 
     int count = 0;
-    Button b1, b2, b3;
+    Button b1, b2, b3, b4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,8 @@ public class OptionsScreen extends AppCompatActivity {
         b1 = (Button) findViewById(R.id.button1);
         b2 = (Button) findViewById(R.id.button2);
         b3 = (Button) findViewById(R.id.button3);
-        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+        b4 = (Button) findViewById(R.id.button4);
+        b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(OptionsScreen.this, MainActivity.class));
@@ -78,6 +79,7 @@ public class OptionsScreen extends AppCompatActivity {
         YoYo.with(Techniques.SlideInLeft).duration(1000).playOn(b1);
         YoYo.with(Techniques.SlideInRight).duration(1000).playOn(b2);
         YoYo.with(Techniques.SlideInLeft).duration(1000).playOn(b3);
+        YoYo.with(Techniques.SlideInRight).duration(1000).playOn(b4);
 
         return true;
     }
