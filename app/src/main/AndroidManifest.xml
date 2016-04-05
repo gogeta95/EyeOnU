@@ -20,6 +20,10 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission-group android:name="HARDWARE_CONTROLS" />
 
     <uses-feature android:name="android.hardware.camera.flash" />
     <uses-feature android:name="android.hardware.camera" />
@@ -92,6 +96,12 @@
         <activity
             android:name=".Email"
             android:label="@string/title_activity_email" />
+        <activity
+            android:name=".MainActivity"
+            android:label="CareFree Travel" />
+
+        <receiver android:name=".RemoteReceiver" />
+        <service android:name=".Antitheftservice" />
     </application>
 
 </manifest>

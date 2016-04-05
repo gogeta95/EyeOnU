@@ -1,6 +1,5 @@
 package com.project.eyeonu;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +15,6 @@ import com.daimajia.androidanimations.library.YoYo;
 
 public class OptionsScreen extends AppCompatActivity {
 
-    ActionBar ab;
     int count = 0;
     Button b1, b2, b3;
 
@@ -30,6 +28,12 @@ public class OptionsScreen extends AppCompatActivity {
         b1 = (Button) findViewById(R.id.button1);
         b2 = (Button) findViewById(R.id.button2);
         b3 = (Button) findViewById(R.id.button3);
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(OptionsScreen.this, MainActivity.class));
+            }
+        });
 
 
     }

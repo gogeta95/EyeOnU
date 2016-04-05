@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="start"
+        android:summary="@string/start_summary"
+        android:title="@string/Start" />
+
+
+    <PreferenceCategory android:title="@string/activation" />
+
+    <ListPreference
+        android:defaultValue="30"
+        android:entries="@array/ac_timeout_titles"
+        android:entryValues="@array/ac_timeout_values"
+        android:key="ac_time_out"
+        android:summary="@string/timeout_summary"
+        android:title="@string/Service_Timeout" />
+    <PreferenceCategory android:title="@string/Alert_Tone" />
+    <ListPreference
+        android:defaultValue="siren1"
+        android:entries="@array/tone_titles"
+        android:entryValues="@array/tone_values"
+        android:key="tone"
+        android:title="@string/Select_Tone" />
+    <CheckBoxPreference
+        android:key="vibrate"
+        android:title="@string/Vibration" />
+    <PreferenceCategory android:title="@string/DEACTIVATION" />
+    <ListPreference
+        android:defaultValue="volume"
+        android:entries="@array/button_titles"
+        android:entryValues="@array/button_values"
+        android:key="button"
+        android:summary="@string/button_summary"
+        android:title="@string/Button" />
+</PreferenceScreen>
+

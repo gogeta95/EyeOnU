@@ -1,61 +1,83 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    tools:context="com.project.eyeonu.OptionsScreen">
-
-    <ImageView
-        android:id="@+id/imageView1"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/module" />
+        android:layout_height="wrap_content"
+        tools:context="com.project.eyeonu.OptionsScreen">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignRight="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:background="#FFFFD6"
-        android:onClick="email"
-        android:text="Send Email"
-        android:textColor="#00552B"
-        android:textSize="18sp"
-        android:textStyle="italic|bold" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/module" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignRight="@+id/button2"
-        android:layout_below="@+id/button2"
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        android:background="#FFFFD6"
-        android:onClick="track"
-        android:text="Let&apos;s Track"
-        android:textColor="#00552B"
-        android:textSize="18sp"
-        android:textStyle="italic|bold" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#FFFFD6"
+            android:onClick="email"
+            android:text="Send Email"
+            android:textColor="#00552B"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:background="#FFFFD6"
-        android:onClick="news"
-        android:text="Latest News"
-        android:textColor="#00552B"
-        android:textSize="18sp"
-        android:textStyle="italic|bold" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#FFFFD6"
+            android:onClick="track"
+            android:text="Let&apos;s Track"
+            android:textColor="#00552B"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:layout_below="@+id/button3"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#FFFFD6"
+            android:text="Care free travel"
+            android:textColor="#00552B"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="#FFFFD6"
+            android:onClick="news"
+            android:text="Latest News"
+            android:textColor="#00552B"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+
+    </RelativeLayout>
+</ScrollView>
